@@ -14,3 +14,6 @@
 .textPresentationImportantUppercase {
   @apply text-base sm:text-2xl md:text-4xl  pt-0 font-black uppercase font-sans;
 }
+.button {
+  @apply border px-2 py-1 rounded-sm;
+}
