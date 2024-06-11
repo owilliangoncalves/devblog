@@ -3,16 +3,16 @@
 @tailwind utilities;
 
 .containerCenter {
-  @apply container mx-auto my-auto;
+  @apply container mx-auto my-auto  h-[100vh];
 }
 .containerFlexColCenter {
-  @apply h-[100vh]  justify-center flex flex-col  items-center;
+  @apply h-[100vh] justify-center flex flex-col  items-center;
 }
 .textPresentation {
-  @apply text-sm pt-0 font-light md:text-2xl;
+  @apply text-xl pt-0 font-light md:text-3xl;
 }
 .textPresentationImportantUppercase {
-  @apply text-base sm:text-2xl md:text-5xl lg:text-6xl  pt-0 font-black uppercase font-sans;
+  @apply text-2xl sm:text-3xl md:text-5xl lg:text-7xl  pt-0 font-black uppercase font-sans;
 }
 .button {
   @apply border px-2 py-1 rounded-sm;

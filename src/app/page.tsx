@@ -10,9 +10,7 @@ export default function Home() {
     <div className='containerCenter '>
       <div className='containerFlexColCenter'>
         <div className='flex align-middle items-center'>
-          <p className='textPresentation text-white '>
-            Olá! Eu sou Willian Gonçalves
-          </p>
+          <p className='textPresentation'>Olá! Eu sou Willian Gonçalves</p>
           <div className=' gap-5 hidden md:flex ml-5'>
             <Tooltip title='GitHub' arrow placement='top'>
               <Link
@@ -48,10 +46,10 @@ export default function Home() {
             </Tooltip>
           </div>
         </div>
-        <h1 className='textPresentationImportantUppercase text-white'>
+        <h1 className='textPresentationImportantUppercase '>
           Engenheiro de Software
         </h1>
-        <div className='flex gap-3 text-white md:hidden mt-2 '>
+        <div className='flex gap-3 md:hidden mt-2 '>
           <Link href={'https://github.com/owilliangoncalves'} target='_blank'>
             <button className='button textPresentation'>GitHub</button>
           </Link>
