@@ -9,11 +9,14 @@
   @apply h-[100vh] justify-center flex flex-col  items-center;
 }
 .textPresentation {
-  @apply text-xl pt-0 font-light md:text-3xl;
+  @apply text-2xl pt-0 font-light md:text-6xl;
 }
 .textPresentationImportantUppercase {
-  @apply text-2xl sm:text-3xl md:text-5xl lg:text-7xl  pt-0 font-black uppercase font-sans;
+  @apply text-5xl sm:text-3xl md:text-8xl lg:text-8xl  pt-0 font-black uppercase font-sans;
 }
 .button {
   @apply border px-2 py-1 rounded-sm;
+}
+.titulo {
+  @apply text-3xl my-6 md:text-5xl uppercase;
 }

@@ -1,7 +1,9 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
-
+import { ThemeProvider } from '@mui/material';
+import * as React from 'react';
+import theme from './ui/theme';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
@@ -15,8 +17,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang='pt-BR'>
-      <body className={inter.className}>{children}</body>
-    </html>
+    <ThemeProvider theme={theme}>
+      <html lang='pt-BR'>
+        <body className={inter.className}>{children}</body>
+      </html>
+    </ThemeProvider>
   );
 }
